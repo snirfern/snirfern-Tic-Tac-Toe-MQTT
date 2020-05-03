@@ -1,0 +1,44 @@
+.container {
+    top: 50%;
+    left: 50%;
+    transform: (-50%, -50%);
+}
+
+.row {
+    border: "1px solid";
+}
+
+.game {
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    padding: 5px;
+    text-align: center;
+}
+
+.info_left {
+    text-align: center;
+    margin: auto;
+    background-color: #de4848
+}
+
+.info_right {
+    text-align: center;
+    float: right;
+    background-color: #424242
+}
+
+button {
+    border-radius: 5px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #008CBA;
+}
